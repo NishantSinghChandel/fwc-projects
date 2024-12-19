@@ -1,0 +1,27 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    135deg,
+    #ffe5ce,
+    #ffd0ba,
+    #ffb9b0,
+    #ffa2b0,
+    #fd8dba,
+    #ec7cca,
+    #cd72de,
+    #9c71f2
+  ); /* made at https://learnui.design/tools/gradient-generator.html */
+}
